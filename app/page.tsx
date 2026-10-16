@@ -5,6 +5,8 @@ import HomeMessage from "./components/HomeMessage";
 import MessageToAction from "./components/MessageToAction";
 import CtaPage from "./components/CtaPage";
 import ReviewPage from "./components/ReviewPage";
+import GetStarted from "./components/GetStarted";
+import FooterPage from "./components/FooterPage";
 
 const Page = () => {
   return (
@@ -16,6 +18,8 @@ const Page = () => {
       <MessageToAction />
       <CtaPage />
       <ReviewPage />
+      <GetStarted />
+      <FooterPage />
     </>
   )
 }
