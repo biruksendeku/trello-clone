@@ -4,14 +4,14 @@ import blackLogo from "../assets/trello-dark.png";
 
 const FooterPage = () => {
   return (
-    <main className="bg-[#172B4D] text-white py-20 px-4 flex flex-col gap-8">
-      <div>
-        <div>
+    <main className="bg-[#172B4D] text-white p-4 flex flex-col gap-8">
+      <div className="flex flex-col gap-2">
+        <div className="flex flex-row gap-0 px-16">
           <Link
             href="/"
-            className="flex flex-col gap-0 justify-center items-center"
+            className="flex flex-col gap-0 justify-center items-center border w-100 py-3"
           >
-            <small className="text-[#0052cc] text-xs font-bold">
+            <small className="text-[darkgray] text-xs font-bold">
               ATLASSIAN
             </small>
             <div className="flex flex-row gap-0.5 justify-center items-center">
@@ -21,35 +21,53 @@ const FooterPage = () => {
                 width={22.5}
                 height={22.5}
               />
-              {/* <p className="text-white font-bold text-3xl">Trello</p> */}
+              <p className="text-white font-bold text-3xl">Trello</p>
             </div>
           </Link>
-          <Link href="/about">
-            <p>About Trello</p>
-            <p>What&apos;s behind the boards.</p>
+          <Link
+            href="/about"
+            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[#172B4D]"
+          >
+            <p className="text-sm">About Trello</p>
+            <p className="text-xs">What&apos;s behind the boards.</p>
           </Link>
-          <Link href="https://www.atlassian.com/company/careers/trello">
-            <p>Jobs</p>
-            <p>Learn about open roles on the Trello team.</p>
+          <Link
+            href="https://www.atlassian.com/company/careers/trello"
+            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[#172B4D]"
+          >
+            <p className="text-sm">Jobs</p>
+            <p className="text-xs">
+              Learn about open roles on the Trello team.
+            </p>
           </Link>
-          <Link href="/platforms">
-            <p>Apps</p>
-            <p>Download the Trello app for your Desktop or Mobile devices.</p>
+          <Link
+            href="/platforms"
+            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[#172B4D]"
+          >
+            <p className="text-sm">Apps</p>
+            <p className="text-xs">
+              Download the Trello app for your Desktop or Mobile devices.
+            </p>
           </Link>
-          <Link href="/contact">
-            <p>Contact us</p>
-            <p>Need anything? Get in touch and we can help.</p>
+          <Link
+            href="/contact"
+            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[skyblue]"
+          >
+            <p className="text-sm">Contact us</p>
+            <p className="text-xs">
+              Need anything? Get in touch and we can help.
+            </p>
           </Link>
         </div>
-        <div>
+        <div className="px-16">
           <Link href="/auth/login" className="hover:underline">
             Log in
           </Link>
         </div>
       </div>
-      <hr />
+      <hr className="border-gray-600" />
       {/* the second div */}
-      <div>
+      <div className="px-16">
         <div>
           <select>
             <option value="en">English</option>
