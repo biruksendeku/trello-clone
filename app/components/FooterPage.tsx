@@ -1,6 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import blackLogo from "../assets/trello-dark.png";
+import {
+  FaRegCircleUser, // For a generic placeholder
+} from "react-icons/fa6";
+
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
+
+const socialMedia = [
+  { id: 1, icon: FaInstagram, href: "#" },
+  { id: 2, icon: FaFacebookF, href: "#" },
+  { id: 3, icon: FaLinkedinIn, href: "#" },
+  { id: 4, icon: FaTwitter, href: "#" },
+  { id: 5, icon: FaYoutube, href: "#" },
+];
 
 const FooterPage = () => {
   return (
@@ -9,7 +28,7 @@ const FooterPage = () => {
         <div className="flex flex-row gap-0 px-16">
           <Link
             href="/"
-            className="flex flex-col gap-0 justify-center items-center border w-100 py-3"
+            className="flex flex-col gap-0 justify-center items-start w-100 py-4"
           >
             <small className="text-[darkgray] text-xs font-bold">
               ATLASSIAN
@@ -26,14 +45,14 @@ const FooterPage = () => {
           </Link>
           <Link
             href="/about"
-            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[#172B4D]"
+            className="flex flex-col gap-2 justify-center items-start w-100 p-4 hover:bg-[#193B6D]"
           >
             <p className="text-sm">About Trello</p>
             <p className="text-xs">What&apos;s behind the boards.</p>
           </Link>
           <Link
             href="https://www.atlassian.com/company/careers/trello"
-            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[#172B4D]"
+            className="flex flex-col gap-2 justify-center items-start w-100 p-4 hover:bg-[#193B6D]"
           >
             <p className="text-sm">Jobs</p>
             <p className="text-xs">
@@ -42,7 +61,7 @@ const FooterPage = () => {
           </Link>
           <Link
             href="/platforms"
-            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[#172B4D]"
+            className="flex flex-col gap-2 justify-center items-start w-100 p-4 hover:bg-[#193B6D]"
           >
             <p className="text-sm">Apps</p>
             <p className="text-xs">
@@ -51,7 +70,7 @@ const FooterPage = () => {
           </Link>
           <Link
             href="/contact"
-            className="flex flex-col gap-0 justify-center items-center border w-100 py-3 hover:bg-[skyblue]"
+            className="flex flex-col gap-2 justify-center items-start w-100 p-4 hover:bg-[#193B6D]"
           >
             <p className="text-sm">Contact us</p>
             <p className="text-xs">
@@ -88,7 +107,7 @@ const FooterPage = () => {
           <p>Copyright © 2026 Atlassian</p>
         </div>
         {/* social links */}
-        <div>
+        {/* <div>
           <Link href="https://www.instagram.com/trelloapp/">Instagram</Link>
           <Link href="https://www.facebook.com/trelloapp/">Facebook</Link>
           <Link href="https://www.linkedin.com/company/atlassian/">
@@ -98,6 +117,17 @@ const FooterPage = () => {
           <Link href="https://www.youtube.com/channel/UCRcOkXoOrU6sN1yCz20VmQw">
             YouTube
           </Link>
+        </div> */}
+        <div className="flex gap-4 p-6 justify-center">
+          {socialMedia.map(({ id, icon: Icon, href }) => (
+            <a
+              key={id}
+              href={href}
+              className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white text-white transition-hover hover:opacity-80"
+            >
+              <Icon className="h-5 w-5" />
+            </a>
+          ))}
         </div>
       </div>
     </main>
