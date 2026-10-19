@@ -14,7 +14,7 @@ const ReviewPage = () => {
   return (
     <main className="flex flex-col gap-4 px-18 py-0">
       <div className="flex flex-row gap-4 justify-end items-center px-8">
-        <EllipsisHorizontalIcon className="size-17" />
+        <EllipsisHorizontalIcon className="h-16 w-16" />
         <button className="bg-[#f0f0f0] rounded-full p-0.5">
           <ChevronLeftIcon className="h-6 w-6 text-gray-500" />
         </button>
@@ -24,7 +24,7 @@ const ReviewPage = () => {
       </div>
       {/* the dynamic part */}
       <div className="flex flex-row gap-8 rounded-md shadow-xl border-gray-300 border-1">
-        <div className="flex flex-col justify-between items-start px-8 py-10 h-125">
+        <div className="flex flex-col justify-between items-start px-8 py-10 h-[31.25rem]">
           <div>
             <p className="text-2xl font-medium">
               [Trello is] great for simplifying complex processes. As a manager,
@@ -46,7 +46,7 @@ const ReviewPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-between items-center bg-[#0052cc] text-[white] rounded-md shadow-md w-230 px-6 py-8">
+        <div className="flex flex-col justify-between items-center bg-[#0052cc] text-[white] rounded-md shadow-md w-[57.5rem] px-6 py-8">
           <p className="text-3xl font-bold">
             75% of organizations report that Trello delivers value to their business within 30 days.
           </p>
@@ -62,10 +62,10 @@ const ReviewPage = () => {
           get more done.
         </p>
         <div className="flex flex-row gap-10 justify-center items-center">
-          <SiVisa className="h-25 w-auto" title="Visa" />
-          <SiCoinbase className="h-40 w-auto" title="Coinbase" />
+          <SiVisa className="h-24 w-auto" title="Visa" />
+          <SiCoinbase className="h-10 w-auto" title="Coinbase" />
           <SiJohndeere className="h-12 w-auto" title="John Deere" />
-          <SiZoom className="h-30 w-auto" title="Zoom" />
+          <SiZoom className="h-12 w-auto" title="Zoom" />
           <Image src={hyattImg} width={200} alt="Hyatt"></Image>
           <Image src={fenderImg} width={110} alt="Fender"></Image>
         </div>

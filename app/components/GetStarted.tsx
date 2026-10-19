@@ -7,7 +7,7 @@ const GetStarted = () => {
         <div>
         <p className="text-4xl font-semibold text-center">Get started with Trello today</p>
         <div className="flex flex-row justify-between items-center gap-2 mt-6">
-          <input type="email" placeholder="Email" className="border-2 border-gray-200 p-2 w-100 rounded-md"/>
+          <input type="email" placeholder="Email" className="border-2 border-gray-200 p-2 w-[25rem] rounded-md"/>
           <button className="btn btn-primary">Sign up - it&apos;s free!</button>
         </div>
       </div>

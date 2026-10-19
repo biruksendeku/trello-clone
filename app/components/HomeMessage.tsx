@@ -28,7 +28,7 @@ const HomeMessage = () => {
         <div className="flex flex-col gap-4 p-4">
           <button
             onClick={() => handleClick(homeMessageImage1, "inbox") }
-            className={ `w-90 px-4 py-6 flex flex-col gap-2 justify-center items-start rounded-md
+            className={ `w-[22.5rem] px-4 py-6 flex flex-col gap-2 justify-center items-start rounded-md
               ${
                 activeTab === "inbox"
                 ? "bg-[#f5f5f5] border-l-8 border-[dodgerblue] shadow-md"
@@ -43,7 +43,7 @@ const HomeMessage = () => {
           </button>
           <button
             onClick={() => handleClick(homeMessageImage2, "boards") }
-            className={ `w-90 px-4 py-6 flex flex-col gap-2 justify-center items-start rounded-md
+            className={ `w-[22.5rem] px-4 py-6 flex flex-col gap-2 justify-center items-start rounded-md
               ${
                 activeTab === "boards"
                 ? "bg-[#f5f5f5] border-l-8 border-[dodgerblue] shadow-md"
@@ -59,7 +59,7 @@ const HomeMessage = () => {
           </button>
           <button
             onClick={() => handleClick(homeMessageImage3, "planner") }
-            className={ `w-90 p-4 flex flex-col gap-2 justify-center items-start rounded-md
+            className={ `w-[22.5rem] p-4 flex flex-col gap-2 justify-center items-start rounded-md
               ${
                 activeTab === "planner"
                 ? "bg-[#f5f5f5] border-l-8 border-[dodgerblue] shadow-md"
@@ -74,7 +74,7 @@ const HomeMessage = () => {
           </button>
         </div>
         <div className="flex-grow flex flex-col justify-end items-end">
-          <EllipsisHorizontalIcon className="size-17" />
+          <EllipsisHorizontalIcon className="h-16 w-16" />
           <div className="bg-[#f5f5f5] relative rounded-2xl">
             <Image src={imageSrc} alt="Home message image" width={800} height={350} className="rounded-2xl object-contain"></Image>
         </div>

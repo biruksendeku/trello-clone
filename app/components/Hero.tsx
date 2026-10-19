@@ -33,7 +33,7 @@ const Hero = () => {
           </Link>
         </div>
         <Link href="https://youtu.be/5SAud9NhxZQ?si=O4XowrbYLOSZKDFC" className="hover:underline flex flex-row gap-2 text-[blue] transition-colors">
-            Warch video
+            Watch video
             <span className="border rounded-full p-1">
                 <PlayIcon className="h-4 w-4 text-gray-700 text-inherit" />
             </span>

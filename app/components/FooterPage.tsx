@@ -11,7 +11,9 @@ const FooterPage = () => {
             href="/"
             className="flex flex-col gap-0 justify-center items-center"
           >
-            <small className="text-[#0052cc] text-xs font-bold">ATLASSIAN</small>
+            <small className="text-[#0052cc] text-xs font-bold">
+              ATLASSIAN
+            </small>
             <div className="flex flex-row gap-0.5 justify-center items-center">
               <Image
                 src={blackLogo}
@@ -69,11 +71,15 @@ const FooterPage = () => {
         </div>
         {/* social links */}
         <div>
-            <Link href="https://www.instagram.com/trelloapp/">Instagram</Link>
-            <Link href="https://www.facebook.com/trelloapp/">Facebook</Link>
-            <Link href="https://www.linkedin.com/company/atlassian/">LinkedIn</Link>
-            <Link href="https://twitter.com/trello">Twitter</Link>
-            <Link href="https://www.youtube.com/channel/UCRcOkXoOrU6sN1yCz20VmQw">YouTube</Link>
+          <Link href="https://www.instagram.com/trelloapp/">Instagram</Link>
+          <Link href="https://www.facebook.com/trelloapp/">Facebook</Link>
+          <Link href="https://www.linkedin.com/company/atlassian/">
+            LinkedIn
+          </Link>
+          <Link href="https://twitter.com/trello">Twitter</Link>
+          <Link href="https://www.youtube.com/channel/UCRcOkXoOrU6sN1yCz20VmQw">
+            YouTube
+          </Link>
         </div>
       </div>
     </main>

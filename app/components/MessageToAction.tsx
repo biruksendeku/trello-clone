@@ -16,7 +16,7 @@ const MessageToAction = () => {
           keeping all <br /> your discussions and tasks organized in one place.
         </p>
       </div>
-      <div className="flex flex-col gap-14 w-100%">
+      <div className="flex flex-col gap-14 w-full">
         <div className="bg-[white] rounded-xl flex flex-row justify-center shadow-xl gap-8 mx-18 p-8">
           <Image
             src={actionImage1}
