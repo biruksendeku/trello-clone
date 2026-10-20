@@ -4,7 +4,7 @@ import wwc from "../assets/wwc.png";
 
 const Reviewer2 = () => {
   return (
-    <main>
+    <main className="cursor-grab active:cursor-grabbing">
       <div className="flex flex-row gap-8 rounded-md shadow-xl border-gray-300 border-1">
         <div className="flex flex-col justify-between items-start px-8 py-10 h-[31.25rem]">
           <div>
