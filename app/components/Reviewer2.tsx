@@ -9,7 +9,7 @@ const Reviewer2 = () => {
         <div className="flex flex-col justify-between items-start px-8 py-10 h-[31.25rem]">
           <div>
             <p className="text-2xl font-medium">
-              [Trello is] great for simplifying complex processes. As a manager,
+              [Trello is2] great for simplifying complex processes. As a manager,
               I can chunk [processes] down into bite-sized pieces for my team
               and then deligate that out, but still keep a bird&apos;s-eye view.
             </p>
