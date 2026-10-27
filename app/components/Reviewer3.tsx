@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import wwc from "../assets/wwc.png";
+import ptc from "../assets/ptc.png";
 
 const Reviewer3 = () => {
   return (
@@ -9,20 +9,20 @@ const Reviewer3 = () => {
         <div className="flex flex-col justify-between items-start px-8 py-10 h-[31.25rem]">
           <div>
             <p className="text-2xl font-medium">
-              Wheather someone is in the office, working from home, or working
-              on-site, with a client, everyone can share context and information
-              through Trello.
+              We used Trello to provide clarityon steps, requirements, and
+              procedures. This was exceptional when commmunicating with teams
+              that had deep cultural and language differences.
             </p>
           </div>
           <div className="w-full flex flex-col gap-4">
             <hr className="w-40" />
             <div className="flex flex-col gap-1">
-              <p>Sumeet Moghe</p>
-              <p>Product Manager at ThoughtWorks</p>
+              <p>Jefferson Scomacao</p>
+              <p>Development Manager at IKEA/PTC</p>
             </div>
             <div className="flex flex-row justify-between items-center">
               <Image
-                src={wwc}
+                src={ptc}
                 alt="Women Who Code"
                 width={75}
                 height={75}
@@ -38,7 +38,8 @@ const Reviewer3 = () => {
         </div>
         <div className="flex flex-col justify-between items-center bg-[#0052cc] text-[white] rounded-md shadow-md w-[57.5rem] px-6 py-8">
           <p className="text-3xl font-bold">
-            81% of customers chose Trello for it&apos;s ease of use.
+            74% of customers say Trello has improved communication with their
+            co-workers and teams.
           </p>
           <Link
             href="https://www.techvalidate.com/tvid/1D4-3E6-170"

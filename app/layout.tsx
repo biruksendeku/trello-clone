@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Trello | Organize work and life, with teams",
-  description: "A modern productivity workspace for managing tasks, projects, and collaboration in one place.",
+  title: "Capture, organize, and tackle your to-dos from anywhere",
+  description:
+    "A modern productivity workspace for managing tasks, projects, and collaboration in one place.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

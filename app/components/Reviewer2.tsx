@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import wwc from "../assets/wwc.png";
+import thoughtworks from "../assets/thoughtworks.png";
 
 const Reviewer2 = () => {
   return (
@@ -9,18 +9,20 @@ const Reviewer2 = () => {
         <div className="flex flex-col justify-between items-start px-8 py-10 h-[31.25rem]">
           <div>
             <p className="text-2xl font-medium">
-              We used Trello to provide clarity on steps, requirements, and precedures.
+              Wheather someone is in the office, working from home, or working
+              on-site, with a client, everyone can share context and and
+              information through Trello.
             </p>
           </div>
           <div className="w-full flex flex-col gap-4">
             <hr className="w-40" />
             <div className="flex flex-col gap-1">
-              <p>Joey Rosenberg</p>
-              <p>Global Leadership Director at Women Who Code</p>
+              <p>Sumeet Moghe</p>
+              <p>Product Manager at ThoughtWorks</p>
             </div>
             <div className="flex flex-row justify-between items-center">
               <Image
-                src={wwc}
+                src={thoughtworks}
                 alt="Women Who Code"
                 width={75}
                 height={75}
@@ -36,8 +38,7 @@ const Reviewer2 = () => {
         </div>
         <div className="flex flex-col justify-between items-center bg-[#0052cc] text-[white] rounded-md shadow-md w-[57.5rem] px-6 py-8">
           <p className="text-3xl font-bold">
-            75% of organizations report that Trello delivers value to their
-            business within 30 days.
+            81% of customers chose Trello for its ease of use.
           </p>
           <Link
             href="https://www.techvalidate.com/tvid/1D4-3E6-170"
