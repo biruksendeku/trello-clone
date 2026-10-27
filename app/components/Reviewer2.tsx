@@ -23,9 +23,9 @@ const Reviewer2 = () => {
             <div className="flex flex-row justify-between items-center">
               <Image
                 src={thoughtworks}
-                alt="Women Who Code"
-                width={75}
-                height={75}
+                alt="ThoughtWorks"
+                width={250}
+                height={175}
               ></Image>
               <Link
                 className="text-[#0052cc] hover:text-[darkblue] hover:underline"

@@ -39,12 +39,7 @@ const FooterPage = () => {
               ATLASSIAN
             </small>
             <div className="flex flex-row gap-0.5 justify-center items-center">
-              <Image
-                src={blackLogo}
-                alt="Trello Logo"
-                width={22.5}
-                height={22.5}
-              />
+              <Image src={blackLogo} alt="Trello Logo" width={30} height={30} />
               <p className="text-white font-bold text-3xl">Trello</p>
             </div>
           </Link>

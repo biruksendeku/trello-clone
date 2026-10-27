@@ -21,12 +21,7 @@ const Reviewer3 = () => {
               <p>Development Manager at IKEA/PTC</p>
             </div>
             <div className="flex flex-row justify-between items-center">
-              <Image
-                src={ptc}
-                alt="Women Who Code"
-                width={75}
-                height={75}
-              ></Image>
+              <Image src={ptc} alt="IKEA/PTC" width={150} height={125}></Image>
               <Link
                 className="text-[#0052cc] hover:text-[darkblue] hover:underline"
                 href="https://www.atlassian.com/blog?_gl=1*6treur*_gcl_au*MTAxMTMzNDU5NS4xNzkwODc1MTU0*_ga*MjA5OTY5ODcyMS4xNzkwODc1MTU0*_ga_2PBSYQJXE3*czE3OTE5OTYxNzAkbzIyJGcwJHQxNzkxOTk2MTcwJGo2MCRsMCRoMA.."
